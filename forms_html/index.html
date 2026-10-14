@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form method="get" id="search">
+      <input type="search" placeholder="Enter what to search" name="query" />
+      <input type="submit" id="submit" value="Search" />
+    </form>
+    <form id="sign-in">
+      <label for="login">Login:</label>
+      <input
+        type="text"
+        id="login"
+        name="login"
+        placeholder="Enter your name"
+        required
+      />
+      <label
+        >Password:
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+      </label>
+      <input type="submit" value="Login" />
+    </form>
+    <form id="other">
+      <label>Languages:</label>
+      <br />
+
+      <input type="checkbox" name="ua" id="ua" />
+      <label for="ua">Ukrainian</label>
+      <br />
+      <input type="checkbox" name="en" id="en" />
+      <label for="en">English</label>
+      <br />
+      <label>Colors:</label>
+      <br />
+      <input type="radio" name="color" id="red" value="red" />
+      <label for="red">Red</label>
+      <input type="radio" name="color" id="green" value="green" />
+      <label for="green">Green</label>
+      <input type="radio" name="color" id="blue" value="blue" />
+      <label for="blue">Blue</label>
+      <label for="genre"></label>
+      <br>
+      <select name="genre" id="genre">
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
+        <option value="action">Action</option>
+      </select>
+      <input type="submit" name="" id="" />
+    </form>
+  </body>
+</html>

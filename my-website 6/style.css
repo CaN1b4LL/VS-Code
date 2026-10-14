@@ -1,0 +1,22 @@
+body{
+    /* background-color: blue; */
+    height: 100dvh;
+    background-image: url(img/1.jpg);
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: right 100px bottom 50px;
+    background-size: 300px;
+    background-attachment: scroll;
+}
+
+div{
+    font-size: 32px;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    overflow: scroll;
+    background-image: url(img/2.jpg);
+    background-attachment: scroll;
+}

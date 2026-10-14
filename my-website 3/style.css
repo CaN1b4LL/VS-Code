@@ -1,0 +1,76 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    display: block;
+    background-color: red;
+    height: 300px;
+    margin: 20px auto;
+    width: 500px;
+    padding: 20px;
+    overflow: scroll;
+}
+
+p{
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+} */
+
+.First-ul-example{
+    margin-left: 50px;
+    padding: 30px;
+    background-color: pink;
+    color: blue;
+    list-style: disc;
+    list-style-position: outside;
+}
+
+.First-ul-example li, .First-ol-example li{
+    color: navy;
+    background-color: orange;
+    margin: 5px 0;
+    font-size: 32px;    
+}
+
+.First-ol-example{
+    list-style-position: inside;
+    background-color: yellow;
+    padding: 10px;
+    margin-left: 50px;
+    list-style-type: decimal;
+}
+
+#one{
+    text-transform: uppercase;
+    background-color: green;
+}
+
+ol{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ol ol {
+    list-style-type: lower-latin;
+}
+
+ul li ol{
+    color: violet;
+}
+
+li{
+    font-size: 32px;
+}
+ol>li::marker{
+    color: red;
+    font-size: 42px;
+}
+
+dl{
+    font-size: 32px;
+    margin-left: 50px;
+}

@@ -1,0 +1,22 @@
+ul{
+    font-size: 32px;
+    list-style-type: none;
+
+}
+
+#Winter{
+    list-style-image: url(icons/winter_16.png);
+}
+
+#Spring{
+    list-style-image: url(icons/spring_16.png);
+}
+
+#Summer{
+    list-style-image: url(icons/summer_16.png);
+}
+
+#Autumn{
+    list-style-image: url(icons/autumn_16.png);
+}
+

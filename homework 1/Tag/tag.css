@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.part-of-speech {
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.example {
+    color: #777777;
+    margin: 5px 0;
+}
+
+.synonyms-block {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.syn-list {
+    color: #5a67d8;
+}

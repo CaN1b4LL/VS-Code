@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        
+        <h2>Contact form</h2>
+        <p class="subtitle">Please fill in your information and we'll be sending your order.</p>
+
+        <form>
+            <div class="form-row">
+                <label>Your name</label>
+                <div class="input-group two-columns">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label>Your email</label>
+                <div class="input-group">
+                    <input type="email" placeholder="your_mail@mail.com">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label>Phone *</label>
+                <div class="input-group three-columns">
+                    <input type="text" placeholder="000">
+                    <input type="text" placeholder="000">
+                    <input type="text" placeholder="0000">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label>Message subject *</label>
+                <div class="input-group">
+                    <select>
+                        <option value="other">Other</option>
+                        <option value="support">Support</option>
+                        <option value="order">Order</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row align-top">
+                <label>Message *</label>
+                <div class="input-group">
+                    <textarea rows="5"></textarea>
+                </div>
+            </div>
+
+            <div class="button-wrapper">
+                <button type="submit">SUBMIT FORM</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

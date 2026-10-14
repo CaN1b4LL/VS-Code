@@ -1,0 +1,25 @@
+form{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+
+}
+input{
+    margin: 20px;
+    font-size: 32px;
+    display: block;
+}
+/* input[type="text"]{
+    display: block;
+} */
+
+label, select{
+    margin: 20px;
+    font-size: 32px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}

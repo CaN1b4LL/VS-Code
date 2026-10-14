@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: #eeeeee;
+    justify-content: center;
+    padding: 0;
+}
+
+.page-wrapper {
+    width: 100%;
+    min-width: 600px;
+    max-width: 1200px;
+    background-color: #eeeeee;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.site-header {
+    background-color: #222222;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 80px;
+}
+
+.site-nav {
+    display: flex;
+    gap: 60px;
+}
+
+.site-nav a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.site-nav a:hover {
+    color: #ffffff;
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 30px;
+    padding: 40px;
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding: 35px;
+}
+
+.article-card h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 6px;
+}
+
+.article-date {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.illustration-box {
+    background-color: #f6d860;
+    margin: 0 -35px 25px -35px;
+    display: flex;
+    justify-content: center;
+}
+
+.illustration-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.article-text p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #444444;
+    margin-bottom: 15px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.events-section {
+    background-color: #ffffff;
+    padding: 30px 25px;
+}
+
+.events-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.events-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.events-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.event-icon {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+}
+
+.events-list p {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #555555;
+}
+
+.quote-box {
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.quote-box blockquote {
+    font-size: 13px;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: bold;
+    color: #555555;
+}

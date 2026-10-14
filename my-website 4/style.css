@@ -1,0 +1,63 @@
+table{
+    background-color: blue;
+    width: 80%;
+    font-size: 32px;
+    color: azure;
+    padding: 10px;
+    border-collapse: collapse;
+    /* border-collapse: separate; */
+    margin: 20px;
+}
+
+tr{
+    background-color: orange;
+}
+
+td{
+    background-color: red;
+    border: 5px solid black;
+    text-align: center;
+    padding: 3px;
+}
+
+th{
+    border: 5px solid azure;
+}
+
+caption{
+    color: black;
+    caption-side: bottom;
+    text-align: right;
+}
+
+tfoot{
+    background-color: green;
+}
+
+tbody{
+    background-color: red;
+}
+
+thead{
+    background-color: orange;
+}
+
+.col-1{
+    background-color: yellow;
+}
+
+.col-2{
+    background-color: gray;
+}
+
+#third tr:first-child{
+    background-color: pink;
+}
+
+#third tr:last-child{
+    background-color: violet;
+}
+
+#third tr:nth-child{
+    background-color: navy;
+}
